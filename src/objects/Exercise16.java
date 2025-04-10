@@ -1,8 +1,8 @@
-// initialization/Overloading.java
+package objects;// initialization/Overloading.java
 // Demonstration of both constructor
 // and ordinary method overloading.
 
-/** creates type Tree wth two constructors and one info method
+/** creates type objects.Tree wth two constructors and one info method
  */
 
 class Tree {
@@ -30,7 +30,7 @@ class Tree {
      */
 
     void info() {
-        System.out.println("Tree is " + height + " feet tall");
+        System.out.println("objects.Tree is " + height + " feet tall");
     }
 
     /** overloaded method to print string argument
@@ -38,7 +38,7 @@ class Tree {
      */
 
     void info(String s) {
-        System.out.println(s + ": Tree is " + height + " feet tall");
+        System.out.println(s + ": objects.Tree is " + height + " feet tall");
     }
 }
 

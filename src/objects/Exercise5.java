@@ -1,3 +1,5 @@
+package objects;
+
 class DataOnly {
     int i;
     double d;

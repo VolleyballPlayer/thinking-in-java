@@ -1,3 +1,5 @@
+package objects;
+
 public class Exercise1 {
     static int i;
     static char c;

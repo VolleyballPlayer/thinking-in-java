@@ -1,6 +1,8 @@
-public class Exercise4 {
+package objects;
+
+public class Exercise3 {
     public static void main(String[] args) {
-        class DataOnly {
+        class ATypeName {
             int i;
             double d;
             boolean b;
@@ -10,10 +12,10 @@ public class Exercise4 {
                 System.out.println(b);
             }
         }
-        DataOnly data = new DataOnly();
-        data.i = 3;
-        data.d = 2.71828;
-        data.b = false;
-        data.show();
+        ATypeName a = new ATypeName();
+        a.i = 3;
+        a.d = 2.71828;
+        a.b = false;
+        a.show();
     }
 }

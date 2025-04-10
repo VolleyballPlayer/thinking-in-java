@@ -1,3 +1,5 @@
+package objects;
+
 import java.util.*;
 
 /** The first Thinking in Java example program.

@@ -1,3 +1,5 @@
+package objects;
+
 class StaticI {
     static int i = 1;
 }
@@ -13,7 +15,7 @@ public class Exercise8 {
         StaticI st2 = new StaticI();
         System.out.println("st1.i = " + st1.i);
         System.out.println("st2.i = " + st2.i);
-        System.out.println("Incrementable.increment() :");
+        System.out.println("objects.Incrementable.increment() :");
         Incrementable.increment();
         System.out.println("st1.i = " + st1.i);
         System.out.println("st2.i = " + st2.i);
@@ -22,7 +24,7 @@ public class Exercise8 {
         System.out.println("st1.i = " + st1.i);
         System.out.println("st2.i = " + st2.i);
         Incrementable new_incrementable = new Incrementable();
-        System.out.println("Incrementable.increment() :");
+        System.out.println("objects.Incrementable.increment() :");
         new_incrementable.increment();
         System.out.println("st1.i = " + st1.i);
         System.out.println("st2.i = " + st2.i);
