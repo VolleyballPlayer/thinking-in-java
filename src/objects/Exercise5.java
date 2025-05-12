@@ -1,11 +1,5 @@
 package objects;
 
-class DataOnly {
-    int i;
-    double d;
-    boolean b;
-}
-
 public class Exercise5 {
     public static void main(String[] args) {
         DataOnly data = new DataOnly();
