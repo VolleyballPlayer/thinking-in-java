@@ -4,3 +4,4 @@ sout == System out println
 main == main
 Option+Cmd+L == format code lines
 control+option+O == optimize imports
+command + N == create toString, setter, getter, constructor, tests etc
