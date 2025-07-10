@@ -1,9 +1,9 @@
 package interfaces;
 
-interface ParentInterface{void logParent();}
-interface ChildInterface1 extends ParentInterface{void logChild1();}
-interface ChildInterface2 extends ParentInterface{void logChild2();}
-interface Grandchild extends ChildInterface1, ChildInterface2{void logGrandChild();}
+interface Parent{void logParent();}
+interface Child1 extends Parent{void logChild1();}
+interface Child2 extends Parent{void logChild2();}
+interface Grandchild extends Child1, Child2{void logGrandChild();}
 
 public class Exercise13 implements Grandchild{
     public void logGrandChild(){
