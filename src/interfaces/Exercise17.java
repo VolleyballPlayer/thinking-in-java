@@ -19,5 +19,7 @@ public class Exercise17{
         System.out.println(s.summer);
         //System.out.println(s.SUMMER);
         //s.SUMMER = "winter";
+        System.out.println(Season.WINTER); //access directly from interface
+        //Season.WINTER = "summer";
     }
 }
