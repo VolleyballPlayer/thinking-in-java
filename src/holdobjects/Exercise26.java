@@ -18,7 +18,7 @@ public class Exercise26 {
             String word = it.next();
             ArrayList<Integer> element = m.get(word);
             if (element == null){
-                element = new ArrayList<>(Arrays.asList(count));
+                element = new ArrayList<>(List.of(count));
             } else {
                 element.add(count);
             }
