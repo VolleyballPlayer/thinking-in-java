@@ -1,4 +1,4 @@
-package access.control.strings;
+package strings;
 
 class WaterSource {
     private String s;
